@@ -8,6 +8,7 @@ namespace lb{
         public:
         float r; int pos[2];
         int seg_angle;
+        glm::vec4 color;
         void draw(const glm::mat4& projection);
 
         static void init();

@@ -9,7 +9,7 @@ namespace lb{
 
         lb::setMat4(shp, "projection", projection);
         lb::setVec4(shp, "position", glm::vec4(pos[0], pos[1], 0.0, 1.0));
-        lb::setVec4(shp, "color", glm::vec4(1.0, 1.0, 1.0, 1.0));
+        lb::setVec4(shp, "color", color);
         lb::setInt(shp, "angle", seg_angle);
         lb::setFloat(shp, "radius", r);
 
