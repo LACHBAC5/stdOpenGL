@@ -1,7 +1,7 @@
 VPATH = glad shader shape
 DEPS = -I./
 
-LIST= glad.o shader_program.o circle.o
+LIST= glad.o shader_program.o circle.o line.o
 LIBCMPLE=false
 
 all: $(LIST) libcmple.out

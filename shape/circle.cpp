@@ -2,7 +2,7 @@
 
 namespace lb{
     unsigned int Circle::VAO=0;
-    lb::shader_program Circle::shp={0,0,0};
+    shader_program Circle::shp={0,0,0};
 
     void Circle::draw(const glm::mat4& projection){
         glUseProgram(shp.program);

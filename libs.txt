@@ -1,2 +1,4 @@
-libshader_program.a shader_program.o glad.o
-libcircle.a circle.o libshader_program.a
+libglad.a glad.o
+libshader_program.a shader_program.o
+libcircle.a circle.o
+libline.a line.o
